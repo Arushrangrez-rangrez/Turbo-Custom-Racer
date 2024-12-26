@@ -1,0 +1,4 @@
+// Redirect to an external link every 15 seconds
+setInterval(function() {
+    window.open('https://example.com', '_blank'); // Replace with your desired external link
+}, 15000);
