@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car Racing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Car Racing Game</h1>
+        <p>Customize your car and race!</p>
+    </header>
+
+    <div class="container">
+        <div class="game-info">
+            <h2>Game Features</h2>
+            <ul>
+                <li>Fully customizable cars</li>
+                <li>Modify body, wheels, engine, and paint</li>
+                <li>Upgrade speed, handling, and durability</li>
+                <li>Different racing tracks and modes</li>
+                <li>Dynamic weather effects and day/night cycles</li>
+            </ul>
+        </div>
+        
+        <div class="ads">
+            <!-- AdSense and AdSterra Ads -->
+            <div class="adsense-ad">
+                <!-- Google AdSense code (replace with your AdSense code) -->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-XXXXXX"  <!-- Replace with your Google AdSense Publisher ID -->
+                     data-ad-slot="XXXXXXX"  <!-- Replace with your AdSense ad slot -->
+                     data-ad-format="auto"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="adsterra-ad">
+                <!-- AdSterra Ad code (replace with your AdSterra code) -->
+                <script type="text/javascript">
+                    (function(){
+                        var s = document.createElement('script');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.src = 'https://www.adsterra.com/js/banner.js';
+                        document.head.appendChild(s);
+                    })();
+                </script>
+            </div>
+        </div>
+
+        <div class="game-play">
+            <h2>Game Screenshots</h2>
+            <p>Customize your car and start racing!</p>
+            <!-- Add game preview images or an embedded game frame here -->
+            <img src="car-game-screenshot.jpg" alt="Car Racing Game Screenshot">
+        </div>
+    </div>
+
+    <!-- External Link Redirection every 15 seconds -->
+    <script>
+        setInterval(function() {
+            window.open('https://example.com', '_blank');
+        }, 15000);
+    </script>
+
+    <footer>
+        <p>© 2024 Car Racing Game. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
